@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/set" >
+
+    <TextView
+        android:id="@+id/textViewPWDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="124dp"
+        android:textColor="@color/lightBrown"
+        android:textSize="20sp"
+        android:text="@string/textPWDEdit" />
+
+    <EditText
+        android:id="@+id/editTextPWDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewPWDE"
+        android:layout_alignBottom="@+id/textViewPWDE"
+        android:layout_toRightOf="@+id/textViewPWDE"
+        android:textColorHint="@color/lightGray_tm"
+        android:ems="8"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:background="@drawable/textbox"
+        android:textColor="@color/halfGray"
+        android:hint="@string/hintPWDEdit" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewPWDEA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewPWDE"
+        android:layout_below="@+id/textViewPWDE"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/lightBrown"
+        android:textSize="20sp"
+        android:text="@string/textPWDAgain" />
+
+    <EditText
+        android:id="@+id/editTextPWDEA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewPWDEA"
+        android:layout_alignBottom="@+id/textViewPWDEA"
+        android:layout_toRightOf="@+id/textViewPWDEA"
+        android:textColorHint="@color/lightGray_tm"
+        android:ems="8"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:background="@drawable/textbox"
+        android:textColor="@color/halfGray"
+        android:hint="@string/hintPWDAgain" />
+
+    <TextView
+        android:id="@+id/textViewF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewPWDEA"
+        android:layout_below="@+id/editTextPWDEA"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/lightBrown"
+        android:textSize="20sp"
+        android:text="@string/textFeeling" />
+
+    <EditText
+        android:id="@+id/editTextF"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_below="@+id/textViewF"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/article"
+        android:ems="11"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:hint="@string/hintFeeling"
+        android:textColor="@color/halfGray"
+        android:textColorHint="@color/lightGray_tm" />
+    
+    <Button
+        android:id="@+id/buttonCancelS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/button_add" />
+
+    <TextView
+        android:id="@+id/textViewCancelS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="83dp"
+        android:layout_marginBottom="31dp"
+        android:textColor="@color/darkRed"
+        android:textSize="20sp"
+        android:text="@string/buttonCancel" />
+    
+    <Button
+        android:id="@+id/buttonSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/button_add" />
+    
+    <TextView
+        android:id="@+id/textViewSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="31dp"
+        android:textColor="@color/darkRed"
+        android:textSize="20sp"
+        android:text="@string/buttonSet" />
+
+</RelativeLayout>

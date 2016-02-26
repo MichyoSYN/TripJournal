@@ -1,0 +1,102 @@
+<?xml version= "1.0" encoding ="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width= "match_parent"
+    android:layout_height= "match_parent"
+    android:background= "@drawable/regist" >
+
+    <TextView
+        android:id="@+id/textViewUNR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="114dp"
+        android:textColor="@color/lightBrown"
+        android:textSize="23sp"
+        android:text="@string/textUN" />
+
+    <TextView
+        android:id="@+id/textViewPWDR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewUNR"
+        android:layout_below="@+id/textViewUNR"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/lightBrown"
+        android:textSize="23sp"
+        android:text="@string/textPWD" />
+   
+    <TextView
+        android:id="@+id/textViewPWDAgainR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewPWDR"
+        android:layout_below="@+id/textViewPWDR"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/lightBrown"
+        android:textSize="20sp"
+        android:text="@string/textPWDAgain" />
+
+    <EditText
+        android:id="@+id/editTextUNR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewUNR"
+        android:layout_toRightOf="@+id/textViewUNR"
+        android:hint="@string/hintUN"
+        android:textColorHint="@color/lightGray_tm"
+        android:ems="9"
+        android:singleLine="true"
+        android:background="@drawable/textbox"
+        android:textColor="@color/halfGray" />
+
+    <EditText
+        android:id="@+id/editTextPWDR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewPWDR"
+        android:layout_alignLeft="@+id/editTextUNR"
+        android:textColorHint="@color/lightGray_tm"
+        android:ems="9"
+        android:singleLine="true"
+        android:hint="@string/hintPWD"
+        android:inputType="textPassword"
+        android:background="@drawable/textbox"
+        android:textColor="@color/halfGray" />
+
+    <EditText
+        android:id="@+id/editTextPWDAgainR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewPWDAgainR"
+        android:layout_alignLeft="@+id/editTextPWDR"
+        android:textColorHint="@color/lightGray_tm"
+        android:ems="9"
+        android:singleLine="true"
+        android:hint="@string/hintPWDAgain"
+        android:inputType="textPassword"
+        android:background="@drawable/textbox"
+        android:textColor="@color/halfGray" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/button_add" />
+
+    <TextView
+        android:id="@+id/textViewOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="114dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/darkRed"
+        android:textSize="20sp"
+        android:text="@string/buttonOK" />
+
+</RelativeLayout>

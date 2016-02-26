@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selectfriend" >
+    
+    <Button
+        android:id="@+id/buttonSelectFriend"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSelectFriend"
+        android:textSize="15sp"
+        android:textColor="@color/seaBlue"
+        android:background="@drawable/button" />
+    
+    <Button
+        android:id="@+id/buttonSearchFriend"
+        android:layout_toRightOf="@+id/buttonSelectFriend"
+        android:layout_alignBaseline="@+id/buttonSelectFriend"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSearch"
+        android:textSize="15sp"
+        android:textColor="@color/seaBlue"
+        android:background="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/imageViewHeadF"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonSearchFriend"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="38dp"
+        android:contentDescription="@string/imageHeadContent"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textViewUNF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewHeadF"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imageViewHeadF"
+        android:text="@string/textUN"
+        android:textColor="@color/warmBrown"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewRDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewUNF"
+        android:layout_below="@+id/textViewUNF"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/halfGray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageViewHeadF"
+        android:layout_below="@+id/imageViewHeadF"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/halfGray"
+        android:textSize="25sp" />
+    
+    <Button
+        android:id="@+id/buttonFriendJournal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="350dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/buttonFriendMessage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/buttonFriendJournal"
+        android:layout_alignBottom="@+id/buttonFriendJournal"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/buttonFriendJournal"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

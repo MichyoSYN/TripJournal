@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WelcomeActivity!</string>
+    <string name="app_name">Welcome</string>
+    <string name="welcometips1">你只需要一个装满行囊的背包</string>
+    <string name="welcometips2">一双善于发现美的眼睛</string>
+    <string name="welcometips3">一颗说走就走的心</string>
+    <string name="wait">&gt;&gt;即将开启你的旅行日志</string>
+    <string name="textUN">用户名：</string>
+    <string name="textPWD">密码：</string>
+    <string name="buttonLogin">登陆</string>
+    <string name="hintUN">请输入用户名</string>
+    <string name="hintPWD">请输入密码</string>
+    <string name="buttonRegist">注册</string>
+    
+    <string name="textPWDAgain">确认密码：</string>
+    <string name="hintPWDAgain">请再次输入密码 </string>
+    <string name="buttonOK"> 确认</string >
+    
+    <string name="textIM"> 我是</string >
+    <string name="imageHeadContent"> HeadPortrait</string >
+
+    <string name="textTitle">标题：</string>
+    <string name="textLocation">旅行地：</string>
+    <string name="hintTitle">请输入日志标题</string>
+    <string name="hintLocation">请输入旅行的目的地</string>
+    <string name="hintArticle">请输入旅行日志正文</string>
+    <string name="buttonUpload">提交</string>
+    <string name="textAdd">添加图片</string>
+    <string name="imageAddContent">添加旅行照片</string>
+    <string name="buttonSelectFile">更改选择</string>
+    <string name="buttonCancel">撤销</string>
+    <string name="buttonConfirm">确定</string>
+    <string name="imageIconContent">标记文件中的图标，方便识别文件还是文件夹</string>
+    <string name="radioAll">查找所有的日志</string>
+    <string name="radioSome">查找特定的日志</string>
+    <string name="checkTime">按时间</string>
+    <string name="checkPlace">按地点</string>
+    <string name="buttonFind">查找</string>
+    <string name="hintPlace">请输入想查找的地点</string>
+    <string name="textPlace">地点：</string>
+    <string name="buttonAlter">更改图片</string>
+    <string name="buttonUpdate">编辑</string>
+    <string name="buttonSave">保存</string>
+    <string name="textPWDEdit">修改密码：</string>
+    <string name="hintPWDEdit">请输入修改密码</string>
+    <string name="textFeeling">一句话个性签名：</string>
+    <string name="hintFeeling">请输入一句话个性签名</string>
+    <string name="buttonSet">修改</string>
+    <string name="textFriend">我的朋友</string>
+    <string name="buttonSelectFriend">查看其它好友</string>
+    <string name="buttonCheckFriend">查看</string>
+    <string name="buttonSearchFriend">搜索</string>
+    <string name="buttonSearch">搜索好友</string>
+    <string name="radioExact">精确查找</string>
+    <string name="radioLike">模糊搜索</string>
+    <string name="hintSearch">请输入要搜索的用户名</string>
+    <string name="buttonMedia">多媒体</string>
+    
+    
+
+</resources>

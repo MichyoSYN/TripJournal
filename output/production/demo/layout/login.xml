@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login" >
+
+    <TextView
+        android:id="@+id/textViewUN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="130dp"
+        android:textColor="@color/lightBrown"
+        android:textSize="23sp"
+        android:text="@string/textUN" />
+
+    <EditText
+        android:id="@+id/editTextUN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewUN"
+        android:layout_alignBottom="@+id/textViewUN"
+        android:layout_toRightOf="@+id/textViewUN"
+        android:ems="9"
+        android:singleLine="true"
+        android:textColorHint="@color/lightGray_tm"
+        android:hint="@string/hintUN"
+        android:background="@drawable/textbox"
+        android:textColor="@color/halfGray" />
+
+    <TextView
+        android:id="@+id/textViewPWD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewUN"
+        android:layout_below="@+id/editTextUN"
+        android:layout_marginTop="52dp"
+        android:textColor="@color/lightBrown"
+        android:textSize="23sp"
+        android:text="@string/textPWD" />
+
+    <EditText
+        android:id="@+id/editTextPWD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewPWD"
+        android:layout_alignBottom="@+id/textViewPWD"
+        android:layout_toRightOf="@+id/textViewPWD"
+        android:ems="9"
+        android:singleLine="true"
+        android:textColorHint="@color/lightGray_tm"
+        android:hint="@string/hintPWD"
+        android:inputType="textPassword"
+        android:background="@drawable/textbox"
+        android:textColor="@color/halfGray" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/button_add" />
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="83dp"
+        android:layout_marginBottom="106dp"
+        android:textColor="@color/darkRed"
+        android:textSize="20sp"
+        android:text="@string/buttonLogin" />
+    
+    <Button
+        android:id="@+id/buttonRegist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/button_add" />
+
+    <TextView
+        android:id="@+id/textViewRegist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="106dp"
+        android:textColor="@color/darkRed"
+        android:textSize="20sp"
+        android:text="@string/buttonRegist" />
+
+</RelativeLayout>

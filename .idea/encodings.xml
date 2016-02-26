@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/DirectionActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/EditActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/FindActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/FirstOverlay.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/FootprintActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/FriendMediaActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/Journal.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/LoginActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/LookActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MediaActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MenuActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyAdapter.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyFileManager.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyFriendAdapter.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyFriendJournalAdapter.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyFriendJournalManager.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyFriendManager.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyJournalAdapter.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyJournalManager.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyLocation.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyMediaManager.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyTripAdapter.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/MyTripManager.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/ReadActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/RegistActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/SQLite.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/SearchActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/SelectFriendActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/SelectPicActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/SetActivity.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/User.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/michyo/welcome/WelcomeActivity.java" charset="GB2312" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

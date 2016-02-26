@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search" >
+    
+    <RadioGroup  
+        android:id="@+id/radiogroupS"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal" >
+        	 
+    	<RadioButton
+        	android:id="@+id/radioButtonExact"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/radioExact"
+        	android:textColor="@color/halfGray"
+        	android:textSize="18sp"
+        	android:checked="true" />
+
+   	 	<RadioButton
+        	android:id="@+id/radioButtonLike"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/radioLike"
+        	android:textColor="@color/halfGray"
+       	 	android:textSize="18sp" />
+   	</RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextSearchFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiogroupS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:hint="@string/hintSearch"
+        android:textColorHint="@color/lightGray_tm"
+        android:ems="11"
+        android:singleLine="true"
+        android:textColor="@color/halfGray"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonConfirmFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextSearchFriend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_add" />
+
+    <TextView
+        android:id="@+id/textViewConfirmFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="82dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/darkRed"
+        android:textSize="20sp"
+        android:text="@string/buttonSearchFriend" />
+
+</RelativeLayout>

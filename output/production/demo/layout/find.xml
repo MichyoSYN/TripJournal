@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/find" >
+
+    <RadioGroup  
+        android:id="@+id/radiogroup"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        	android:layout_alignParentTop="true"
+        	android:layout_marginLeft="26dp"
+        	android:layout_marginTop="107dp"
+        	 android:orientation="vertical" >
+        	 
+    	<RadioButton
+        	android:id="@+id/radioButtonAll"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/radioAll"
+        	android:textColor="@color/halfGray"
+        	android:textSize="15sp"
+        	android:checked="true" />
+
+   	 	<RadioButton
+        	android:id="@+id/radioButtonSome"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/radioSome"
+        	android:textColor="@color/halfGray"
+       	 	android:textSize="15sp" />
+   	</RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBoxPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radiogroup"
+        android:layout_below="@+id/radiogroup"
+        android:text="@string/checkPlace"
+        android:textColor="@color/halfGray"
+        android:textSize="15sp" />
+    
+    <CheckBox
+        android:id="@+id/checkBoxTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/checkBoxPlace"
+        android:layout_alignBaseline="@+id/checkBoxPlace"
+        android:text="@string/checkTime"
+        android:textColor="@color/halfGray"
+        android:textSize="15sp" />
+    
+    <TextView
+        android:id="@+id/textViewPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBoxPlace"
+        android:layout_marginLeft="2dp"
+        android:layout_below="@+id/checkBoxPlace"
+        android:layout_marginTop="10dp"
+        android:text="@string/textPlace"
+        android:textColor="@color/halfGray"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextPlace"
+        android:hint="@string/hintPlace"
+        android:textColorHint="@color/lightGray_tm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewPlace"
+        android:layout_alignBottom="@+id/textViewPlace"
+        android:layout_toRightOf="@+id/textViewPlace"
+        android:ems="12"
+        android:singleLine="true"
+        android:textColor="@color/halfGray"
+        android:textSize="15sp" />
+
+    <DatePicker
+        android:id="@+id/datePickerDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPlace"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/buttonFind"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/buttonFind"
+        android:textSize="20sp"
+        android:textColor="@color/seaBlue"
+        android:background="@drawable/button" />
+
+
+
+</RelativeLayout>

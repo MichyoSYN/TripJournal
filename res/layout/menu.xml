@@ -1,0 +1,88 @@
+<?xml version= "1.0" encoding ="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width= "match_parent"
+    android:layout_height= "match_parent"
+    android:background= "@drawable/menu" >
+
+    <Button
+        android:id="@+id/buttonNewTrip"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="129dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/buttonMyTrip"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/buttonNewTrip"
+        android:layout_alignBottom="@+id/buttonNewTrip"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/buttonNewTrip"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/textViewIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonNewTrip"
+        android:layout_below="@+id/buttonNewTrip"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="84dp"
+        android:textColor="@color/lightBrown"
+        android:textSize="20sp"
+        android:text="@string/textIM" />
+
+    <ImageView
+        android:id="@+id/imageViewHead"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignRight="@+id/buttonNewTrip"
+        android:layout_below="@+id/textViewIM"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="@string/imageHeadContent"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textViewUNM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewIM"
+        android:layout_alignBottom="@+id/textViewIM"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/textViewIM"
+        android:textColor="@color/warmBrown"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewRegistDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewUNM"
+        android:layout_toRightOf="@+id/imageViewHead"
+        android:textColor="@color/halfGray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewLocate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewRegistDate"
+        android:layout_toRightOf="@+id/imageViewHead"
+        android:textColor="@color/halfGray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewFeeling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLocate"
+        android:layout_toRightOf="@+id/imageViewHead"
+        android:textColor="@color/halfGray"
+        android:textSize="20sp" />
+
+</RelativeLayout>
